@@ -6,8 +6,8 @@
 from pyspark.sql.functions import current_timestamp, lit
 
 # File path (adjust if needed)
-raw_path = "/FileStore/automotive/raw/automobile_data.csv"
-bronze_path = "/FileStore/automotive/bronze/automobile_data"
+raw_path = "/automotive/raw/automobile_data.csv"
+bronze_path = "/automotive/bronze/automobile_data"
 
 # Read raw CSV
 df_raw = (
